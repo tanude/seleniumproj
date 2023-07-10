@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My suite]">
+  <test name="MY Test">
+    <groups>
+      <run>
+        <include name="regression"/>
+        <exclude name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Grouping.com.Grouping"/>
+    </classes>
+  </test> <!-- MY Test -->
+</suite> <!-- Failed suite [My suite] -->
